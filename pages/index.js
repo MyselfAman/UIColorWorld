@@ -280,7 +280,7 @@ export default function Home() {
         <Card title="Feeling Blue Today" cards={blueColorCards}/>
         <Card title="Feeling Green Today" cards={greenColorCards}/>
         <Card title="Feeling Yellow Today" cards={yellowColorCards}/>
-        <Card title="Feeling Fancy Today cards"cards={fancyColorCards}/>
+        <Card title="Feeling Fancy Today "cards={fancyColorCards}/>
       </main>
 
       <footer className={styles.footer}>
