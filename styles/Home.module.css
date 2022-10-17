@@ -44,6 +44,9 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+.subtitle{
+  font-size: 3rem;
+}
 
 .title,
 .description {
@@ -70,22 +73,44 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1200px;
+}
+
+.eggCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.eggCradCode{
+  font-weight:700;
+  font-size: large;
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
+  width: 150px;
+  height: 210px;
+  display: block;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
 
-.card:hover,
+.card:hover{
+  width: 150px;
+  height: 200px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+}
+
 .card:focus,
 .card:active {
   color: #0070f3;
@@ -104,7 +129,7 @@
 }
 
 .logo {
-  height: 1em;
+  height: 3em;
   margin-left: 0.5rem;
 }
 
