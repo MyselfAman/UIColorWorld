@@ -273,7 +273,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">UI Color World</a>
+          Welcome to <a >UI Color World</a>
         </h1>
 
         <Card title="Feeling Red Today" cards={redColorCards}/>
