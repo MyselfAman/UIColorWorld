@@ -276,10 +276,6 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">UI Color World</a>
         </h1>
 
-        <p className={styles.subtitle}>
-          Click on card to copy
-        </p>
-
         <Card title="Feeling Red Today" cards={redColorCards}/>
         <Card title="Feeling Blue Today" cards={blueColorCards}/>
         <Card title="Feeling Green Today" cards={greenColorCards}/>

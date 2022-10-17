@@ -14,7 +14,7 @@ export default function card({cards, title}) {
                              <a  href="#" key={card.id} className={styles.card} style={{backgroundColor : `${card.hexDecimalCode}`}} >
                           
                             </a>
-                            <p className={styles.eggCradCode}>{card.hexDecimalCode}</p>
+                            <p key={card.id} className={styles.eggCradCode}>{card.hexDecimalCode}</p>
                        </div>
                     )
                 })
