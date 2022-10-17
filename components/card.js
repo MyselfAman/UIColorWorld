@@ -10,11 +10,11 @@ export default function card({cards, title}) {
             {
                 cards.ColorCards.map(card=>{
                     return(
-                       <div className={styles.eggCard}>
-                             <a  href="#" key={card.id} className={styles.card} style={{backgroundColor : `${card.hexDecimalCode}`}} >
+                       <div key={card.id} className={styles.eggCard}>
+                             <a  href="#" className={styles.card} style={{backgroundColor : `${card.hexDecimalCode}`}} >
                           
                             </a>
-                            <p key={card.id} className={styles.eggCradCode}>{card.hexDecimalCode}</p>
+                            <p className={styles.eggCradCode}>{card.hexDecimalCode}</p>
                        </div>
                     )
                 })
